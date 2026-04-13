@@ -1,2 +1,4 @@
+mkdocs>=1.5,<2
 mkdocs-material
-mkdocs
+mkdocs-glightbox
+zensical
