@@ -1,0 +1,62 @@
+Knowledge, Skills, and Behaviours (KSBs) are the core attributes you need to demonstrate in your workplace activity. 
+
+You must demonstrate that you are competent to excel in your profession and to pass the end-point assessment as part of this Apprenticeship.  
+
+Note: For this particular Apply activity, we have prepared further guidance for you to help you meet the criteria of each KSB ahead of your final submission.
+
+Knowledge
+Knowledge refers to the learning you acquire whilst on your apprenticeship. It’s the information covered in the Discover and Practise stage activities. Some of the knowledge will be generic, and some will be more specific to your role. You should bear in mind the KSBs when completing the Apply stage activities, and actively demonstrate how your output covers the KSBs for this module. 
+
+K5. The differences between structured and unstructured data 
+
+Have you described the difference between structured and unstructured data and how these data types are beneficial to data analysts? 
+Evidence where you used structured (database) and unstructured data (Word, .csv, Excel, .mp3, .mp4, etc.). 
+Evidence how you linked structured and unstructured data (using a schema). 
+Evidence how you linked multiple sets of unstructured data (designing/using a schema).  
+K6. The fundamentals of data structures, database system design, implementation, and maintenance 
+
+Does your ETL (Extract, Load, Transform) diagram for your organisation describe: 
+the process of the data entry points (where the data is being extracted from and the destination of the data)? 
+what happened during the transform process? 
+access requirements for the data lake/database? 
+Show an entity relationship diagram (ERD) for data you work with on a regular basis (either use or create an ERD).  
+Describe the methods you use for security and access control on the datasets. 
+Discuss how the data is updated, the frequency of updates, and the potential risks of data analysis due to organisational policy. 
+Specify how data is backed up in the system. 
+Specify how the database is managed to maintain functionality. 
+Explain the normalisation process you used to create the database. 
+Did you perform any data cleaning (handling missing data, deduplication, column segmentation, etc.)?  
+Did you detect any outliers and anomalies using the IQR (interquartile range) method? 
+What steps did you take to understand the quality of the data (descriptive statistics)? 
+Did you apply principles of Histograms and Box and Whisker plots to give you confidence in the variation of your data? 
+Explain how seeing this variance informed what statistical tests you could apply. 
+Did you test underlying assumptions (hypothesis testing)? If so, what were the outcomes?
+Skills 
+Skills refer to how you apply the knowledge you have gained in your job. You will build upon your skills as you progress through the modules, utilising your on and off-the-job training.  
+
+S9. Apply organisational architecture requirements to data analysis activities 
+
+Demonstrate the evolution of your data model from a conceptual to a logical to a physical model. 
+How did you factor in the different relationships between entities (one-to-one, one-to-many, many-to-one, and many-to-many)? 
+Evidence how you linked multiple tables (for example, with the use of primary and foreign keys, displaying your entity relationship diagram). 
+Evidence how you use multiple queries involving multiple tables (e.g., joins, set operators, unions, etc.) 
+Explain how your data analysis aligns with the four pillars of data architecture: 
+Reliability – ensuring accuracy and consistency. 
+Scalability – design for growing data volumes. 
+Flexibility – adapt to changing business needs. 
+Security – implement measures for data protection.
+Behaviours
+Behaviours are the way in which you work, and your mindset. You need to act in a way that is appropriate for your organisation and profession. 
+
+B6. Resilient – viewing obstacles as challenges and learning from failure 
+
+Were you faced with any setbacks or curveballs which meant you could not proceed with your project as planned? How did you adapt to these? 
+Include evidence of any form of communication you had with senior staff or stakeholders about these challenges (please be aware of personal and sensitive information that you can’t share). 
+Despite the obstacles, what did you still manage to achieve? 
+How could you avoid these challenges on future projects? 
+B7. Adaptable to changing contexts within the scope of a project and the direction of the organisation or Data Analyst role.  
+
+Were you forced to change the requirements of your report at any stage during the project? Why was this? 
+How did your next set of actions demonstrate a willingness to adapt for the new direction of travel?  
+This is another opportunity to evidence any form of communication you had with senior staff or stakeholders – recall the note above on sharing personal and sensitive information.
+
