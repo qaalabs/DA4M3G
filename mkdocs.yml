@@ -1,10 +1,30 @@
 # Site name
-site_name: SITE NAME
+site_name: Module 3 - Databases and SQL
 dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
 nav:
   - Overview: index.md
+
+  - Agenda:
+    - Day 2: agenda/day2.md
+
+  - "Day 2 - GCPFCI 2":
+    - "GCP & BigQuery Orientation": day2/gdp-logon.md
+    - "Explore ECommerce Dataset": day2/bigquery-explore.md
+    - "Run ECommerce Queries": day2/bigquery-queries.md
+    - "Write BigQuery SQL - Task 1": day2/bigquery-tasks-1.md
+    - "Write BigQuery SQL - Task 2": day2/bigquery-tasks-2.md
+    - "Write BigQuery SQL - Task 3": day2/bigquery-tasks-3.md
+
+  - Resources: resources.md
+
+not_in_nav: |
+  404.md
+  trainer.md
+  day2/framing.md
+  day2/bigquery-solutions.md
+
 
 # Theme
 theme:
@@ -14,8 +34,6 @@ theme:
     name: material
     icon:
       logo: material/database
-    static_templates:
-      - 404.html
 
 # Extensions
 markdown_extensions:
@@ -26,6 +44,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - tables
   - toc:
       permalink: false
       toc_depth: 2
@@ -49,7 +68,11 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -58,3 +81,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - glightbox
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+

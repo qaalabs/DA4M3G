@@ -1,0 +1,62 @@
+[project]
+site_name = "Module 3 - Databases and SQL"
+dev_addr = "0.0.0.0:8000"
+
+nav = [
+  {"Overview" = "index.md"},
+  {"Agenda" = [
+    {"Day 2" = "agenda/day2.md"},
+  ]},
+  {"Day 2 - GCPFCI 2" = [
+    {"GCP & BigQuery Orientation" = "day2/gdp-logon.md"},
+    {"Explore ECommerce Dataset" = "day2/bigquery-explore.md"},
+    {"Run ECommerce Queries" = "day2/bigquery-queries.md"},
+    {"Write BigQuery SQL - Task 1" = "day2/bigquery-tasks-1.md"},
+    {"Write BigQuery SQL - Task 2" = "day2/bigquery-tasks-2.md"},
+    {"Write BigQuery SQL - Task 3" = "day2/bigquery-tasks-3.md"},
+  ]},
+  {"Resources" = "resources.md"},
+]
+
+
+[project.theme]
+variant = "classic"
+
+features = [
+  "announce.dismiss",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "toc.integrate",
+
+  #"content.action.edit",
+  #"content.action.view",
+  #"header.autohide",
+  #"navigation.expand",
+  #"navigation.footer",
+  #"navigation.instant",
+  #"navigation.instant.prefetch",
+  #"navigation.instant.progress",
+  #"navigation.path",
+  #"navigation.sections",
+  #"navigation.tabs",
+  #"navigation.tabs.sticky",
+  #"navigation.top",
+  #"navigation.tracking",
+  #"search.highlight",
+  #"toc.follow",
+]
+    
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+    
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+    
+[project.theme.icon]
+logo = "material/database"
+    
