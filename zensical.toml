@@ -14,6 +14,7 @@ nav = [
     {"Write BigQuery SQL - Task 1" = "day2/bigquery-tasks-1.md"},
     {"Write BigQuery SQL - Task 2" = "day2/bigquery-tasks-2.md"},
     {"Write BigQuery SQL - Task 3" = "day2/bigquery-tasks-3.md"},
+    {"MongoDB" = "day2/mongo-db.md"},
   ]},
   {"Resources" = "resources.md"},
 ]

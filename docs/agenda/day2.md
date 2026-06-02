@@ -6,7 +6,7 @@
 - Local Yesterday - Cloud Today
 - **Activity**: [GCP & BigQuery Orientation](../day2/gdp-logon.md)
 - **Activity**: [Explore ECommerce Dataset](../day2/bigquery-explore.md)
-- [Run ECommerce Queries](../day2/bigquery-queries.md)
+- **Practice**: [Run ECommerce Queries](../day2/bigquery-queries.md)
 - Compare Today to Yesterday
 
 ## ☕ Morning Break
@@ -17,7 +17,7 @@
 - **Practice**: [Write BigQuery SQL - Task 2](../day2/bigquery-tasks-2.md)
 - **Practice**: [Write BigQuery SQL - Task 3](../day2/bigquery-tasks-3.md)
 - **Discussion**: Google Cloud Debrief
-- **Practice**: AWS-LAB
+- [MongoDB](../day2/mongo-db.md)
 
 ## 🥪🥤 Lunch Break
 
