@@ -35,7 +35,7 @@ If you see a different project name, use the project selector to switch.
 Click in the search bar at the top of the Google Console:
 
 - Type: BigQuery
-- Select: **BigQuery* ~ Product - Data warehouse/analytics
+- Select: **BigQuery** ~ Product - Data warehouse/analytics
 
 !!! success "You are now ready to start querying data in BigQuery!"
 
