@@ -1,4 +1,4 @@
-# MongoDB Lab ~ NoSQL Database
+# MongoDB Labs ~ NoSQL Fundamentals
 
 ## Initial Setup
 
