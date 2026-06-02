@@ -21,7 +21,7 @@
 ### Session 1
 
 - `09:40` [Local Yesterday - Cloud Today](day2/framing.md) (10 mins)
-- `09:50` **Activity**: [GCP & BigQuery Orientation](day2/gdp-logon.md) (10 mins)
+- `09:50` **Activity**: [GCP & BigQuery Orientation](day2/gcp-logon.md) (10 mins)
 - `10:00` **Activity**: [Explore ECommerce Dataset](day2/bigquery-explore.md) (10 mins)
 - `10:10` **Practice**: [Run ECommerce Queries](day2/bigquery-queries.md) (20 mins)
 - `10:30` Compare Today to Yesterday (10 mins)

@@ -4,7 +4,7 @@
 
 - 🌅 Welcome to Day 2 of DA4 Module 3G
 - Local Yesterday - Cloud Today
-- **Activity**: [GCP & BigQuery Orientation](../day2/gdp-logon.md)
+- **Activity**: [GCP & BigQuery Orientation](../day2/gcp-logon.md)
 - **Activity**: [Explore ECommerce Dataset](../day2/bigquery-explore.md)
 - **Practice**: [Run ECommerce Queries](../day2/bigquery-queries.md)
 - Compare Today to Yesterday
