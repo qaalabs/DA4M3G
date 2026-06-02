@@ -28,3 +28,14 @@ You are now in the right place.
 The project name **ingwane-da4m3** should appear at the top of the page.
 
 If you see a different project name, use the project selector to switch.
+
+
+## Step 5: Search for BigQuery
+
+Click in the search bar at the top of the Google Console:
+
+- Type: BigQuery
+- Select: **BigQuery* ~ Product - Data warehouse/analytics
+
+!!! success "You are now ready to start querying data in BigQuery!"
+
