@@ -2,3 +2,4 @@ mkdocs>=1.5,<2
 mkdocs-material
 mkdocs-glightbox
 zensical
+mkdocs-quiz
