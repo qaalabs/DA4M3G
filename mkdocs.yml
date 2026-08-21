@@ -1,13 +1,19 @@
 # Site name
 site_name: Module 3 - Databases and SQL
+site_url: https://qaalabs.github.io/DA4M3G/
 dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
 nav:
   - Overview: index.md
+  - Module KSBs: ksb.md
 
   - Agenda:
+    - Topics: agenda/index.md
+    - Day 1: agenda/day1.md
     - Day 2: agenda/day2.md
+    - Day 3: agenda/day3.md
+    - Day 4: agenda/day4.md
 
   - "Day 2 - GCPFCI 2":
     - "GCP & BigQuery Orientation": day2/gcp-logon.md
@@ -77,12 +83,13 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
-      clickable_checkbox: false
+      clickable_checkbox: true
   - pymdownx.tilde
 
 plugins:
   - search
   - glightbox
+  - mkdocs_quiz
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
