@@ -1,5 +1,5 @@
 # Site name
-site_name: Module 3 - Databases and SQL
+site_name: DA4M3G - Apprenticeship Materials
 site_url: https://qaalabs.github.io/DA4M3G/
 dev_addr: '0.0.0.0:8000'
 
@@ -11,18 +11,6 @@ nav:
   - Agenda:
     - Topics: agenda/index.md
     - Day 1: agenda/day1.md
-    - Day 2: agenda/day2.md
-    - Day 3: agenda/day3.md
-    - Day 4: agenda/day4.md
-
-  - "Day 2 - GCPFCI 2":
-    - "GCP & BigQuery Orientation": day2/gcp-logon.md
-    - "Explore ECommerce Dataset": day2/bigquery-explore.md
-    - "Run ECommerce Queries": day2/bigquery-queries.md
-    - "Write BigQuery SQL - Task 1": day2/bigquery-tasks-1.md
-    - "Write BigQuery SQL - Task 2": day2/bigquery-tasks-2.md
-    - "Write BigQuery SQL - Task 3": day2/bigquery-tasks-3.md
-    - "MongoDB": day2/mongo-db.md
 
   - Resources: resources.md
 
