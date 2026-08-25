@@ -5,30 +5,30 @@
 ### Session 1
 
 - `10:00` Module overview (10 mins)
-- `10:10` 01 Introduction to Data Modelling (30 mins)
+- `10:10` 01 - Introduction to Data Modelling (30 mins)
 
 ### Session 2
 
-- `11:00` 02 Entity Relationship Diagrams (20 mins)
-- `11:20` 03 Conceptual Data Models (20 mins)
+- `11:00` 02 - Entity Relationship Diagrams (20 mins)
+- `11:20` 03 - Conceptual Data Models (20 mins)
 - `11:40` **Demo**: Diagramming Tools (10 mins)
 - `11:50` **Instructions**: Create Conceptual Data Model (10 mins)
-- `12:00` **Breakout**: 04 Creating a conceptual data model (20 mins)
+- `12:00` **Breakout**: 04 - Create a Conceptual Data Model (20 mins)
 - `12:20` **Report-Back**: Create Conceptual Data Model (10 mins)
 
 ### Session 3
 
-- `13:30` 05 Logical Data Models (20 mins)
+- `13:30` 05 - Logical Data Models (20 mins)
 - `13:50` **Instructions**: Create Logical Data Model  (10 mins)
-- `14:00` **Breakout**: 06 Creating a logical data model  (20 mins)
+- `14:00` **Breakout**: 06 - Create a Logical Data Model (20 mins)
 - `14:20` **Report-Back**: Create Logical Data Model  (10 mins)
 
 ### Session 4
 
-- `14:50` 07 Physical Data Models (10 mins)
-- `15:00` 08 Normalisation (20 mins)
+- `14:50` 07 - Physical Data Models (10 mins)
+- `15:00` 08 - Normalisation (20 mins)
 - `15:20` **Demo**: Normalisation Excel Workbook (20 mins)
-- `15:40` **Activity**: 09 Normalisation (10 mins)
+- `15:40` **Activity**: 09 - Normalisation Exercise (10 mins)
 
 ---
 
