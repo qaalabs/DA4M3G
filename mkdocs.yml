@@ -20,7 +20,6 @@ nav:
     - "Write BigQuery SQL - Task 1": day3/bigquery-tasks-1.md
     - "Write BigQuery SQL - Task 2": day3/bigquery-tasks-2.md
     - "Write BigQuery SQL - Task 3": day3/bigquery-tasks-3.md
-    - "Google Cloud Debrief": day3/bigquery-solutions.md
 
   - Resources: resources.md
 
@@ -28,6 +27,7 @@ not_in_nav: |
   404.md
   trainer.md
   day3/framing.md
+  day3/bigquery-solutions.md
   google/GCPFCI.md
   google/GCPMDLDW.md
 

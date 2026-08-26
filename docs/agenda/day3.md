@@ -31,7 +31,7 @@
 - **Practice**: [Write BigQuery SQL - Task 1](../day3/bigquery-tasks-1.md)
 - **Practice**: [Write BigQuery SQL - Task 2](../day3/bigquery-tasks-2.md)
 - **Practice**: [Write BigQuery SQL - Task 3](../day3/bigquery-tasks-3.md)
-- **Discussion**: [Google Cloud Debrief](../day3/bigquery-solutions.md)
+- **Discussion**: Google Cloud Debrief
 - 
 
 ## 🎁 Wrap
