@@ -3,6 +3,8 @@
 ## Session 1
 
 - 🌅 Welcome to Day 3 of DA4 Module 3G
+- **Breakout**: [Database Types Investigation](../day3/db-types.md)
+- **Report-Back**: Database Types Investigation
 - 
 
 ## ☕ Morning Break

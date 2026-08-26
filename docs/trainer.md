@@ -52,7 +52,6 @@
 
 ### Session 3
 
-- `13:20` FABRIC-SETUP (10 mins)
 
 ### Session 4
 
@@ -63,6 +62,8 @@
 
 ### Session 1
 
+- `09:40` **Breakout**: [Database Types Investigation](day3/db-types.md) (20 mins)
+- `10:00` **Report-Back**: Database Types Investigation (20 mins)
 
 ### Session 2
 

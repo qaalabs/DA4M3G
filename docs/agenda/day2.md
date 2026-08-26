@@ -23,7 +23,6 @@
 
 ## Session 3
 
-- FABRIC-SETUP
 - 
 
 ## ☕ Afternoon Break
