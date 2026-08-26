@@ -1,13 +1,16 @@
 # MongoDB Labs ~ NoSQL Fundamentals
 
+Runs on **Firestore with MongoDB compatibility** - a native Google Cloud database (Firestore, Enterprise edition) that accepts MongoDB's own query language. No Docker, no local server - `mongosh` on the VM connects over the network to a database sitting in your GCP project, the same way you connected to BigQuery.
+
+!!! warning "Trainer: confirm before delivery"
+    This GCP feature only went GA August 2025, so it hasn't been run in this course before. Before the day, check: Firestore **Enterprise edition** is enabled/billable in the training GCP project, `mongosh` installs cleanly on the VM image, and decide whether each learner gets their own database or a shared database with one collection per learner (e.g. `customers_<name>`).
+
 ## Initial Setup
 
 - Login to your Virtual Machine
-- On the desktop open: **Docker Desktop**
-
-!!! warning "Wait for the Docker Engine to start"
-
-Then open **Terminal** on your VM to get to a command prompt
+- Open **Terminal** / **PowerShell**
+- Check whether `mongosh` is already installed: `mongosh --version`
+    - If not, install it (e.g. `winget install MongoDB.Shell` on Windows, or download from mongodb.com/try/download/shell)
 
 ---
 
@@ -15,40 +18,39 @@ Then open **Terminal** on your VM to get to a command prompt
 
 ### Instructor Led Demo
 
-**Start MongoDB Container**
+**Create the database (Google Cloud Console or Cloud Shell)**
 
 ```bash
-# Start MongoDB 4.4 (compatible with VMs without AVX support)
-docker run -d -p 27017:27017 --name mongodb mongo:4.4
+# Create a Firestore Enterprise database with MongoDB compatibility enabled
+gcloud firestore databases create \
+  --database=shop \
+  --edition=enterprise \
+  --location=YOUR-REGION \
+  --enable-mongodb-compatible-data-access
 
-# Verify it's running
-docker ps
+# Create a database user (prints the generated password - save it, it can't be retrieved again)
+gcloud firestore user-creds create trainer --database=shop
 ```
 
-!!! note "Although version 5 has been released - v4.4 works on the virtual machines"
+!!! note "One-off setup"
+    This only needs doing once (by the trainer, in the shared training project) - not per learner, unless you decide each learner should have their own database.
 
-If MongoDB is running you should see something similar to the following:
+**Get the connection string**
 
-```powershell
-CONTAINER ID  IMAGE      COMMAND                 CREATED      STATUS      PORTS                     NAMES
-868de3409690  mongo:4.4  "docker-entrypoint.s…"  20 secs ago  Up 16 secs  0.0.0.0:27017->27017/tcp  mongodb
+In the Cloud Console: **Firestore > Databases > shop > Connect**, choose mongosh, and copy the generated command. It will look like:
+
+```bash
+mongosh 'mongodb://USERNAME:PASSWORD@CONNECTION_STRING:443/shop?loadBalanced=true&authMechanism=SCRAM-SHA-256&tls=true&retryWrites=false'
 ```
 
-**Connect to MongoDB**
+Run that in the terminal to connect.
 
-```powershell
-# Connect to MongoDB shell
-docker exec -it mongodb mongo
-```
+You should see the MongoDB shell prompt: `>` (or `shop>`)
 
-You should see the MongoDB shell prompt: `>`
+**Insert First Document**
 
-**Create a Database and Insert First Document**
-
-```javascript
-// Switch to (or create) the shop database
-use shop
-```
+!!! note
+    No `use shop` step needed here - the connection string already connects you straight into the `shop` database that was created via `gcloud`.
 
 ```javascript
 // Insert a customer document
@@ -465,27 +467,19 @@ db.<collection>.find().sort({ field: 1 })  // Sort (1=asc, -1=desc)
 
 ## Troubleshooting
 
-**Container not starting?**
-```bash
-docker logs mongodb
-```
+**`mongosh` not found?**
 
-**Can't connect to mongo shell?**
-```bash
-# Check container is running
-docker ps
+Install it - see [Initial Setup](#initial-setup) above.
 
-# Restart if needed
-docker restart mongodb
-```
+**Can't connect / authentication fails?**
+
+- Re-copy the connection string from **Firestore > Databases > shop > Connect** in the console - the password isn't recoverable if lost, so a new user may be needed via `gcloud firestore user-creds create`.
+- Check the connection string still has `loadBalanced=true&tls=true&retryWrites=false` - these are required, not optional.
 
 **Want to start fresh?**
-```bash
-# Stop and remove container
-docker stop mongodb
-docker rm mongodb
 
-# Start new container
-docker run -d -p 27017:27017 --name mongodb mongo:4.4
+```bash
+# Delete all documents in the collection without deleting the database
+db.customers.deleteMany({})
 ```
 
