@@ -36,25 +36,28 @@
 
 ### Session 1
 
-- `09:40` [Local Yesterday - Cloud Today](day2/framing.md) (10 mins)
-- `09:50` **Activity**: [GCP & BigQuery Orientation](day2/gcp-logon.md) (10 mins)
-- `10:00` **Activity**: [Explore ECommerce Dataset](day2/bigquery-explore.md) (10 mins)
-- `10:10` **Practice**: [Run ECommerce Queries](day2/bigquery-queries.md) (20 mins)
-- `10:30` Compare Today to Yesterday (10 mins)
+- `09:40` **Discussion**: Q&A from Day 1 or quiz (10 mins)
+- `09:50` 01 - Creating, deleting & populating databases & tables (20 mins)
+- `10:10` **Demo**: Create: Database / Table / Insert & Update (10 mins)
+- `10:20` **Activity**: 02 - Create and populate a database table (10 mins)
 
 ### Session 2
 
-- `11:00` **Practice**: [Write BigQuery SQL - Task 1](day2/bigquery-tasks-1.md) (10 mins)
-- `11:10` **Practice**: [Write BigQuery SQL - Task 2](day2/bigquery-tasks-2.md) (10 mins)
-- `11:20` **Practice**: [Write BigQuery SQL - Task 3](day2/bigquery-tasks-3.md) (10 mins)
-- `11:30` **Discussion**: [Google Cloud Debrief](day2/bigquery-solutions.md) (10 mins)
-- `11:40` [MongoDB](day2/mongo-db.md) (40 mins)
+- `10:50` 03 - SELECT Statement Overview (10 mins)
+- `11:00` 04 - Retrieving Data Using SELECT (30 mins)
+- `11:30` **Activity**: 05 - Retrieving Data Using SELECT (20 mins)
 
 ### Session 3
 
+- `13:20` 06 - Filtering Rows (20 mins)
+- `13:40` **Activity**: 07 - Filtering Rows Exercise (10 mins)
+- `13:50` 08 - Sorting Rows (10 mins)
+- `14:00` **Activity**: 09 - Sorting Rows Exercise (10 mins)
 
 ### Session 4
 
+- `14:50` 10 - Common Functions (built-in) (20 mins)
+- `15:10` **Activity**: 11 - Common Functions Exercise (20 mins)
 
 ---
 
@@ -70,9 +73,18 @@
 
 ### Session 3
 
+- `13:40` **Discussion**: [Local Yesterday - Cloud Today](day3/framing.md) (10 mins)
+- `13:50` **Activity**: [GCP & BigQuery Orientation](day3/gcp-logon.md) (10 mins)
+- `14:00` **Activity**: [Explore ECommerce Dataset](day3/bigquery-explore.md) (10 mins)
+- `14:10` **Practice**: [Run ECommerce Queries](day3/bigquery-queries.md) (20 mins)
+- `14:30` Compare Today to Yesterday (10 mins)
 
 ### Session 4
 
+- `15:00` **Practice**: [Write BigQuery SQL - Task 1](day3/bigquery-tasks-1.md) (10 mins)
+- `15:10` **Practice**: [Write BigQuery SQL - Task 2](day3/bigquery-tasks-2.md) (10 mins)
+- `15:20` **Practice**: [Write BigQuery SQL - Task 3](day3/bigquery-tasks-3.md) (10 mins)
+- `15:30` **Discussion**: [Google Cloud Debrief](day3/bigquery-solutions.md) (10 mins)
 
 ---
 

@@ -3,33 +3,34 @@
 ## Session 1
 
 - 🌅 Welcome to Day 2 of DA4 Module 3G
-- Local Yesterday - Cloud Today
-- **Activity**: [GCP & BigQuery Orientation](../day2/gcp-logon.md)
-- **Activity**: [Explore ECommerce Dataset](../day2/bigquery-explore.md)
-- **Practice**: [Run ECommerce Queries](../day2/bigquery-queries.md)
-- Compare Today to Yesterday
+- **Discussion**: Q&A from Day 1 or quiz
+- 01 - Creating, deleting & populating databases & tables
+- **Demo**: Create: Database / Table / Insert & Update
+- **Activity**: 02 - Create and populate a database table
 
 ## ☕ Morning Break
 
 ## Session 2
 
-- **Practice**: [Write BigQuery SQL - Task 1](../day2/bigquery-tasks-1.md)
-- **Practice**: [Write BigQuery SQL - Task 2](../day2/bigquery-tasks-2.md)
-- **Practice**: [Write BigQuery SQL - Task 3](../day2/bigquery-tasks-3.md)
-- **Discussion**: Google Cloud Debrief
-- [MongoDB](../day2/mongo-db.md)
+- 03 - SELECT Statement Overview
+- 04 - Retrieving Data Using SELECT
+- **Activity**: 05 - Retrieving Data Using SELECT
 
 ## 🥪🥤 Lunch Break
 
 ## Session 3
 
-- 
+- 06 - Filtering Rows
+- **Activity**: 07 - Filtering Rows Exercise
+- 08 - Sorting Rows
+- **Activity**: 09 - Sorting Rows Exercise
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
-- 
+- 10 - Common Functions (built-in)
+- **Activity**: 11 - Common Functions Exercise
 
 ## 🎁 Wrap
 

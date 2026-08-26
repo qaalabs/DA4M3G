@@ -18,11 +18,20 @@
 ## Session 3
 
 - 
+- **Discussion**: [Local Yesterday - Cloud Today](../day3/framing.md)
+- **Activity**: [GCP & BigQuery Orientation](../day3/gcp-logon.md)
+- **Activity**: [Explore ECommerce Dataset](../day3/bigquery-explore.md)
+- **Practice**: [Run ECommerce Queries](../day3/bigquery-queries.md)
+- Compare Today to Yesterday
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
+- **Practice**: [Write BigQuery SQL - Task 1](../day3/bigquery-tasks-1.md)
+- **Practice**: [Write BigQuery SQL - Task 2](../day3/bigquery-tasks-2.md)
+- **Practice**: [Write BigQuery SQL - Task 3](../day3/bigquery-tasks-3.md)
+- **Discussion**: [Google Cloud Debrief](../day3/bigquery-solutions.md)
 - 
 
 ## 🎁 Wrap
