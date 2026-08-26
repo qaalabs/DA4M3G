@@ -9,7 +9,6 @@ nav = [
   ]},
   {"Day 3 - SQL 1" = [
     {"Database Types Investigation" = "day3/db-types.md"},
-    {"Local Yesterday - Cloud Today" = "day3/framing.md"},
     {"GCP & BigQuery Orientation" = "day3/gcp-logon.md"},
     {"Explore ECommerce Dataset" = "day3/bigquery-explore.md"},
     {"Run ECommerce Queries" = "day3/bigquery-queries.md"},

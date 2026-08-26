@@ -18,7 +18,7 @@
 ## Session 3
 
 - 
-- **Discussion**: [Local Yesterday - Cloud Today](../day3/framing.md)
+- **Discussion**: Local Yesterday - Cloud Today
 - **Activity**: [GCP & BigQuery Orientation](../day3/gcp-logon.md)
 - **Activity**: [Explore ECommerce Dataset](../day3/bigquery-explore.md)
 - **Practice**: [Run ECommerce Queries](../day3/bigquery-queries.md)
