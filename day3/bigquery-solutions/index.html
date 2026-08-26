@@ -660,27 +660,27 @@
 <h2 id="level-1-exploration">Level 1: Exploration</h2>
 <p><strong>Task 1</strong> - How many users?</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
-<span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span><span class="p">;</span>
+<span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span>
 </code></pre></div>
 <p><strong>Task 2</strong> - How many products?</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
-<span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span><span class="p">;</span>
+<span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span>
 </code></pre></div>
 <p><strong>Task 3</strong> - First 20 products</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span>
 </code></pre></div>
 <p><strong>Task 4</strong> - Order statuses</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="n">status</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">total</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">status</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">total</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">total</span><span class="w"> </span><span class="k">DESC</span>
 </code></pre></div>
 <p><strong>Task 5</strong> - Users from Germany</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span>
-<span class="k">WHERE</span><span class="w"> </span><span class="n">country</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Germany'</span><span class="p">;</span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">country</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Germany'</span>
 </code></pre></div>
 <hr>
 <h2 id="level-2-filtering-and-sorting">Level 2: Filtering and sorting</h2>
@@ -688,29 +688,29 @@
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span>
 <span class="k">WHERE</span><span class="w"> </span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Jeans'</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">retail_price</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">retail_price</span><span class="w"> </span><span class="k">DESC</span>
 </code></pre></div>
 <p><strong>Task 7</strong> - Returned orders</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span>
-<span class="k">WHERE</span><span class="w"> </span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Returned'</span><span class="p">;</span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Returned'</span>
 </code></pre></div>
 <p><strong>Task 8</strong> - 10 most expensive products</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span>
 <span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">retail_price</span><span class="w"> </span><span class="k">DESC</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">10</span>
 </code></pre></div>
 <p><strong>Task 9</strong> - Female users who joined after 2020</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span>
 <span class="k">WHERE</span><span class="w"> </span><span class="n">gender</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'F'</span>
-<span class="w">  </span><span class="k">AND</span><span class="w"> </span><span class="n">created_at</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="s1">'2020-12-31'</span><span class="p">;</span>
+<span class="w">  </span><span class="k">AND</span><span class="w"> </span><span class="n">created_at</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="s1">'2020-12-31'</span>
 </code></pre></div>
 <p><strong>Task 10</strong> - Order items with sale price &gt; 100</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">order_items</span><span class="o">`</span>
-<span class="k">WHERE</span><span class="w"> </span><span class="n">sale_price</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">sale_price</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">100</span>
 </code></pre></div>
 <hr>
 <h2 id="level-3-aggregations">Level 3: Aggregations</h2>
@@ -719,33 +719,33 @@
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">user_id</span>
 <span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">order_count</span><span class="w"> </span><span class="k">DESC</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span>
 </code></pre></div>
 <p><strong>Task 12</strong> - Total revenue by product category</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="n">product_category</span><span class="p">,</span><span class="w"> </span><span class="n">ROUND</span><span class="p">(</span><span class="k">SUM</span><span class="p">(</span><span class="n">sale_price</span><span class="p">),</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">total_revenue</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">order_items</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">product_category</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">total_revenue</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">total_revenue</span><span class="w"> </span><span class="k">DESC</span>
 </code></pre></div>
 <p><strong>Task 13</strong> - Average sale price per order status</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="n">status</span><span class="p">,</span><span class="w"> </span><span class="n">ROUND</span><span class="p">(</span><span class="k">AVG</span><span class="p">(</span><span class="n">sale_price</span><span class="p">),</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">avg_sale_price</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">order_items</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">status</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">avg_sale_price</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">avg_sale_price</span><span class="w"> </span><span class="k">DESC</span>
 </code></pre></div>
 <p><strong>Task 14</strong> - Country with most users</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="n">country</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">user_count</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">country</span>
 <span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">user_count</span><span class="w"> </span><span class="k">DESC</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">1</span>
 </code></pre></div>
 <p><strong>Task 15</strong> - Brands with more than 10 products</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="n">brand</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">num_products</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">brand</span>
 <span class="k">HAVING</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">10</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">num_products</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">num_products</span><span class="w"> </span><span class="k">DESC</span>
 </code></pre></div>
 <hr>
 <h2 id="level-4-joins">Level 4: Joins</h2>
@@ -759,7 +759,7 @@
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span><span class="w"> </span><span class="n">o</span>
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span><span class="w"> </span><span class="n">u</span>
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">user_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span>
 </code></pre></div>
 <p><strong>Task 17</strong> - Order items with product name and category</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
@@ -770,7 +770,7 @@
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">order_items</span><span class="o">`</span><span class="w"> </span><span class="n">oi</span>
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span><span class="w"> </span><span class="n">p</span>
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">oi</span><span class="p">.</span><span class="n">product_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="n">id</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span>
 </code></pre></div>
 <p><strong>Task 18</strong> - Users who have never placed an order</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
@@ -780,7 +780,7 @@
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span><span class="w"> </span><span class="n">u</span>
 <span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span><span class="w"> </span><span class="n">o</span>
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">user_id</span>
-<span class="k">WHERE</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">order_id</span><span class="w"> </span><span class="k">IS</span><span class="w"> </span><span class="k">NULL</span><span class="p">;</span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">order_id</span><span class="w"> </span><span class="k">IS</span><span class="w"> </span><span class="k">NULL</span>
 </code></pre></div>
 <p><strong>Task 19</strong> - Top 10 customers by total spent</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
@@ -792,7 +792,7 @@
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">oi</span><span class="p">.</span><span class="n">user_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">first_name</span><span class="p">,</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">last_name</span>
 <span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">total_spent</span><span class="w"> </span><span class="k">DESC</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">10</span>
 </code></pre></div>
 <p><strong>Task 20</strong> - Orders with customer name, product name, sale price</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
@@ -809,7 +809,7 @@
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">order_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">oi</span><span class="p">.</span><span class="n">order_id</span>
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span><span class="w"> </span><span class="n">p</span>
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">oi</span><span class="p">.</span><span class="n">product_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="n">id</span>
-<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<span class="k">LIMIT</span><span class="w"> </span><span class="mi">20</span>
 </code></pre></div>
 <hr>
 <h2 id="level-5-stretch">Level 5: Stretch</h2>
@@ -829,13 +829,13 @@
 <span class="k">SELECT</span><span class="w"> </span><span class="n">country</span><span class="p">,</span><span class="w"> </span><span class="n">category</span><span class="p">,</span><span class="w"> </span><span class="n">items_sold</span>
 <span class="k">FROM</span><span class="w"> </span><span class="n">ranked</span>
 <span class="k">WHERE</span><span class="w"> </span><span class="n">rnk</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">country</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">country</span>
 </code></pre></div>
 <p><strong>Task 22</strong> - Percentage of orders returned</p>
 <p><code>COUNTIF</code> is a BigQuery-specific function.</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
 <span class="w">  </span><span class="n">ROUND</span><span class="p">(</span><span class="mi">100</span><span class="p">.</span><span class="mi">0</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Returned'</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">),</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">pct_returned</span>
-<span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span><span class="p">;</span>
+<span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">orders</span><span class="o">`</span>
 </code></pre></div>
 <p><strong>Task 23</strong> - Month-by-month revenue trend</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
@@ -843,7 +843,7 @@
 <span class="w">  </span><span class="n">ROUND</span><span class="p">(</span><span class="k">SUM</span><span class="p">(</span><span class="n">sale_price</span><span class="p">),</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">revenue</span>
 <span class="k">FROM</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">order_items</span><span class="o">`</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">month</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">month</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">month</span>
 </code></pre></div>
 <p><strong>Task 24</strong> - Distribution centre with most products</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
@@ -853,7 +853,7 @@
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">distribution_centers</span><span class="o">`</span><span class="w"> </span><span class="n">dc</span>
 <span class="w">  </span><span class="k">ON</span><span class="w"> </span><span class="n">ii</span><span class="p">.</span><span class="n">product_distribution_center_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dc</span><span class="p">.</span><span class="n">id</span>
 <span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">dc</span><span class="p">.</span><span class="n">name</span>
-<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">num_items</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">num_items</span><span class="w"> </span><span class="k">DESC</span>
 </code></pre></div>
 <p><strong>Task 25</strong> - Create a view of completed orders</p>
 <p>The view is created in the course project, not in <code>bigquery-public-data</code>. The <code>thelook</code> dataset must exist in <code>ingwane-da4m3</code> first (create it in the console, location: US).</p>
@@ -870,7 +870,7 @@
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">users</span><span class="o">`</span><span class="w"> </span><span class="n">u</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">user_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span>
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">order_items</span><span class="o">`</span><span class="w"> </span><span class="n">oi</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">order_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">oi</span><span class="p">.</span><span class="n">order_id</span>
 <span class="k">JOIN</span><span class="w"> </span><span class="o">`</span><span class="n">bigquery</span><span class="o">-</span><span class="k">public</span><span class="o">-</span><span class="k">data</span><span class="p">.</span><span class="n">thelook_ecommerce</span><span class="p">.</span><span class="n">products</span><span class="o">`</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">oi</span><span class="p">.</span><span class="n">product_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="n">id</span>
-<span class="k">WHERE</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Complete'</span><span class="p">;</span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Complete'</span>
 </code></pre></div><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
