@@ -2,86 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/404/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/ksb/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/resources/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/trainer/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/agenda/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/agenda/day1/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/agenda/day2/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/agenda/day3/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/agenda/day4/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/bigquery-explore/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/bigquery-queries/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/bigquery-solutions/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/bigquery-tasks-1/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/bigquery-tasks-2/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/bigquery-tasks-3/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/db-types/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/framing/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day3/gcp-logon/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://qaalabs.github.io/DA4M3G/day4/erd-revision/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://qaalabs.github.io/DA4M3G/day4/erd-setup/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/day4/mongo-db/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://qaalabs.github.io/DA4M3G/google/GCPFCI/</loc>
-         <lastmod>2026-08-26</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
 </urlset>

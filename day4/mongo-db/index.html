@@ -332,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../agenda/day3/" class="md-nav__link">
+      <a href="../../agenda/day4/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Day 3
+    Day 4
   
 
     
@@ -385,7 +385,7 @@
   <span class="md-ellipsis">
     
   
-    Day 3 - SQL 1
+    Day 4 - SQL 2
   
 
     
@@ -401,7 +401,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Day 3 - SQL 1
+    Day 4 - SQL 2
   
 
           </label>
@@ -414,182 +414,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../day3/db-types/" class="md-nav__link">
+      <a href="../erd-revision/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Database Types Investigation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../day3/gcp-logon/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GCP &amp; BigQuery Orientation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../day3/bigquery-explore/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Explore ECommerce Dataset
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../day3/bigquery-queries/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Run ECommerce Queries
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../day3/bigquery-tasks-1/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Write BigQuery SQL - Task 1
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../day3/bigquery-tasks-2/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Write BigQuery SQL - Task 2
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../day3/bigquery-tasks-3/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Write BigQuery SQL - Task 3
+    Table Design Scenarios
   
 
     
@@ -665,7 +497,9 @@
 <li>Login to your Virtual Machine</li>
 <li>Open <strong>Terminal</strong> / <strong>PowerShell</strong></li>
 <li>Check whether <code>mongosh</code> is already installed: <code>mongosh --version</code><ul>
-<li>If not, install it (e.g. <code>winget install MongoDB.Shell</code> on Windows, or download from mongodb.com/try/download/shell)</li>
+<li>If not, install it (e.g. <code>winget install MongoDB.Shell --source winget</code> on Windows, or download from mongodb.com/try/download/shell)</li>
+<li>The <code>--source winget</code> flag avoids a certificate error some lab VMs hit when winget also tries the <code>msstore</code> source</li>
+<li>After installing, <strong>close the terminal window and open a new one</strong> before running <code>mongosh --version</code> again - an already-open shell doesn't pick up the PATH update, and will report <code>mongosh</code> as not recognized</li>
 </ul>
 </li>
 </ul>
@@ -691,7 +525,7 @@ gcloud<span class="w"> </span>firestore<span class="w"> </span>user-creds<span c
 <p>In the Cloud Console: <strong>Firestore &gt; Databases &gt; shop &gt; Connect</strong>, choose mongosh, and copy the generated command. It will look like:</p>
 <div class="highlight"><pre><span></span><code>mongosh<span class="w"> </span><span class="s1">'mongodb://USERNAME:PASSWORD@CONNECTION_STRING:443/shop?loadBalanced=true&amp;authMechanism=SCRAM-SHA-256&amp;tls=true&amp;retryWrites=false'</span>
 </code></pre></div>
-<p>Run that in the terminal to connect.</p>
+<p>Run that in the terminal to connect. Keep the single quotes around the whole string.</p>
 <p>You should see the MongoDB shell prompt: <code>&gt;</code> (or <code>shop&gt;</code>)</p>
 <p><strong>Insert First Document</strong></p>
 <div class="admonition note">
