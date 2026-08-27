@@ -92,7 +92,8 @@
 
 ### Session 1
 
-- `09:40` **Breakout**: [Table Design Scenarios](day4/erd-revision.md) (30 mins)
+- `09:40` **Instructions**: [ERD-SETUP](day4/erd-setup.md) (10 mins)
+- `09:50` **Breakout**: [Table Design Scenarios](day4/erd-revision.md) (20 mins)
 
 ### Session 2
 
