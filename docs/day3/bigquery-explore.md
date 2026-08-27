@@ -26,11 +26,11 @@ Then expand **bigquery-public-data** in the Explorer panel and scroll down to fi
 
 BigQuery organises everything in three levels:
 
-| Level | What it is | SSMS equivalent |
-|-------|-----------|-----------------|
+| Level   | What it is                                                    | SSMS equivalent |
+|---------|---------------------------------------------------------------|-----------------|
 | **Project** | The top-level container - like a workspace or billing account | Server |
-| **Dataset** | A collection of related tables | Database |
-| **Table** | Rows and columns of data | Table |
+| **Dataset** | A collection of related tables                                | Database |
+| **Table**   | Rows and columns of data                                      | Table |
 
 In the Explorer panel you can see this hierarchy:
 `ingwane-da4m3` > `thelook_ecommerce` > `orders`
@@ -86,6 +86,10 @@ This is one of the things that makes BigQuery different from a local database - 
 
 Click on the **orders** table, then click **Query** at the top of the table panel (or click the three dots next to the table and choose **Query**).
 
+!!! abstract ""
+    ![New query - query button](../img/thelook-query.png)
+
 A SQL editor will open in the main panel. BigQuery will pre-fill the table name for you.
 
 You do not need to run anything yet - just notice that the editor is there, it looks familiar, and the table reference is already in place. That is where you will work next.
+

@@ -10,7 +10,9 @@ Runs on **Firestore with MongoDB compatibility** - a native Google Cloud databas
 - Login to your Virtual Machine
 - Open **Terminal** / **PowerShell**
 - Check whether `mongosh` is already installed: `mongosh --version`
-    - If not, install it (e.g. `winget install MongoDB.Shell` on Windows, or download from mongodb.com/try/download/shell)
+    - If not, install it (e.g. `winget install MongoDB.Shell --source winget` on Windows, or download from mongodb.com/try/download/shell)
+    - The `--source winget` flag avoids a certificate error some lab VMs hit when winget also tries the `msstore` source
+    - After installing, **close the terminal window and open a new one** before running `mongosh --version` again - an already-open shell doesn't pick up the PATH update, and will report `mongosh` as not recognized
 
 ---
 
@@ -43,7 +45,7 @@ In the Cloud Console: **Firestore > Databases > shop > Connect**, choose mongosh
 mongosh 'mongodb://USERNAME:PASSWORD@CONNECTION_STRING:443/shop?loadBalanced=true&authMechanism=SCRAM-SHA-256&tls=true&retryWrites=false'
 ```
 
-Run that in the terminal to connect.
+Run that in the terminal to connect. Keep the single quotes around the whole string.
 
 You should see the MongoDB shell prompt: `>` (or `shop>`)
 

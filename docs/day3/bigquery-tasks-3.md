@@ -1,6 +1,10 @@
 # BigQuery Tasks - Joins and Stretch
 
-Write a query to answer each question. All tables are in `bigquery-public-data.thelook_ecommerce`.
+!!! success "Write a query to answer each question."
+
+!!! warning "Remember BigQuery charges by data scanned."
+
+!!! note "All tables are in `bigquery-public-data.thelook_ecommerce`"
 
 ---
 
@@ -33,3 +37,4 @@ These are harder. Give them a go and see how far you get.
 **Task 24** - Which distribution centre supplies the most products?
 
 **Task 25** - Create a view that shows all completed orders with customer and product details.
+

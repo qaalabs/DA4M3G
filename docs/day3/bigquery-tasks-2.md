@@ -1,6 +1,10 @@
 # BigQuery Tasks - Aggregations
 
-Write a query to answer each question. All tables are in `bigquery-public-data.thelook_ecommerce`.
+!!! success "Write a query to answer each question."
+
+!!! warning "Use `LIMIT` when exploring - remember BigQuery charges by data scanned."
+
+!!! note "All tables are in `bigquery-public-data.thelook_ecommerce`"
 
 ---
 
