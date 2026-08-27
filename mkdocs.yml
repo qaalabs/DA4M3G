@@ -13,7 +13,7 @@ nav:
     - Day 4: agenda/day4.md
 
   - "Day 4 - SQL 2":
-    - "Table Design Scenarios": docs/day4/erd-revision.md
+    - "Table Design Scenarios": day4/erd-revision.md
 
   - Resources: resources.md
 

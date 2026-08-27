@@ -3,7 +3,7 @@
 ## Session 1
 
 - 🌅 Welcome to Day 4 of DA4 Module 3G
-- **Breakout**: [Table Design Scenarios](../docs/day4/erd-revision.md)
+- **Breakout**: [Table Design Scenarios](../day4/erd-revision.md)
 - 
 
 ## ☕ Morning Break
