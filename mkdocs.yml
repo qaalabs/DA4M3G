@@ -10,16 +10,10 @@ nav:
 
   - Agenda:
     - Topics: agenda/index.md
-    - Day 3: agenda/day3.md
+    - Day 4: agenda/day4.md
 
-  - "Day 3 - SQL 1":
-    - "Database Types Investigation": day3/db-types.md
-    - "GCP & BigQuery Orientation": day3/gcp-logon.md
-    - "Explore ECommerce Dataset": day3/bigquery-explore.md
-    - "Run ECommerce Queries": day3/bigquery-queries.md
-    - "Write BigQuery SQL - Task 1": day3/bigquery-tasks-1.md
-    - "Write BigQuery SQL - Task 2": day3/bigquery-tasks-2.md
-    - "Write BigQuery SQL - Task 3": day3/bigquery-tasks-3.md
+  - "Day 4 - SQL 2":
+    - "Table Design Scenarios": docs/day4/erd-revision.md
 
   - Resources: resources.md
 
