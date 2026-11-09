@@ -1,40 +1,40 @@
-# Day 1 - GCPFCI 1
+# Day 1 ~ Data Modelling
 
 ## Session 1
 
-- 🌅 Welcome to Day 1 of DA4 Module 3G
-- VM allocation
+- **Slides**: 🌅 Welcome to Day 1 DA4 Module 3G
+- **Setup**: [🖥️ VM setup](https://qaalabs.github.io/vmsetup/)
 - Module overview
-- 01 - Introduction to Data Modelling
+- 01 - Introduction to data modelling
 
-## ☕ Morning Break
+## ☕ Morning break
 
 ## Session 2
 
-- 02 - Entity Relationship Diagrams
-- 03 - Conceptual Data Models
-- **Demo**: Diagramming Tools
-- **Instructions**: Create Conceptual Data Model
-- **Breakout**: 04 - Create a Conceptual Data Model
-- **Report-Back**: Create Conceptual Data Model
+- 02 - Entity relationship diagrams
+- 03 - Conceptual data models
+- **Demo**: Diagramming tools
+- **Instructions**: Create conceptual data model
+- **Breakout**: 👥 04 - Create conceptual data model
+- **Report-Back**: Create conceptual data model
 
-## 🥪🥤 Lunch Break
+## 🥪🥤 Lunch break
 
 ## Session 3
 
-- 05 - Logical Data Models
-- **Instructions**: Create Logical Data Model 
-- **Breakout**: 06 - Create a Logical Data Model
-- **Report-Back**: Create Logical Data Model 
+- 05 - Logical data models
+- **Instructions**: Create logical data model 
+- **Breakout**: 👥 06 - Create a logical data model
+- **Report-Back**: Create logical data model 
 
-## ☕ Afternoon Break
+## ☕ Afternoon break
 
 ## Session 4
 
-- 07 - Physical Data Models
+- 07 - Physical data models
 - 08 - Normalisation
-- **Demo**: Normalisation Excel Workbook
-- **Activity**: 09 - Normalisation Exercise
+- **Demo**: Normalisation Excel workbook
+- **Activity**: 09 - Normalisation exercise
 
 ## 🎁 Wrap
 

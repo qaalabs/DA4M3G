@@ -1,37 +1,37 @@
-# Day 3 - SQL 1
+# Day 3 ~ SQL 1
 
 ## Session 1
 
 - 🌅 Welcome to Day 3 of DA4 Module 3G
-- **Breakout**: [Database Types Investigation](../day3/db-types.md)
-- **Report-Back**: Database Types Investigation
+- **Breakout**: [👥 Database types investigation](../day3/db-types.md)
+- **Report-Back**: Database types investigation
 - 
 
-## ☕ Morning Break
+## ☕ Morning break
 
 ## Session 2
 
 - 
 
-## 🥪🥤 Lunch Break
+## 🥪🥤 Lunch break
 
 ## Session 3
 
 - 
-- **Discussion**: Local Yesterday - Cloud Today
-- **Activity**: [GCP & BigQuery Orientation](../day3/gcp-logon.md)
-- **Activity**: [Explore ECommerce Dataset](../day3/bigquery-explore.md)
-- **Practice**: [Run ECommerce Queries](../day3/bigquery-queries.md)
-- Compare Today to Yesterday
+- **Discussion**: Local yesterday - Cloud today
+- **Activity**: [GCP & BigQuery orientation](../day3/gcp-logon.md)
+- **Activity**: [Explore ECommerce dataset](../day3/bigquery-explore.md)
+- **Practice**: [Run ECommerce queries](../day3/bigquery-queries.md)
+- Compare today to yesterday
 
-## ☕ Afternoon Break
+## ☕ Afternoon break
 
 ## Session 4
 
 - **Practice**: [Write BigQuery SQL - Task 1](../day3/bigquery-tasks-1.md)
 - **Practice**: [Write BigQuery SQL - Task 2](../day3/bigquery-tasks-2.md)
 - **Practice**: [Write BigQuery SQL - Task 3](../day3/bigquery-tasks-3.md)
-- **Discussion**: Google Cloud Debrief
+- **Discussion**: Google Cloud debrief
 - 
 
 ## 🎁 Wrap
