@@ -1,12 +1,13 @@
-## <mark>Allocate a VM to each learner</mark>
+## <mark>Log back on to your VM</mark>
 
-### Allocation
+### GoToMyPC
 
-- Give them the link to the VMSetup site
+- Same VM as Day 1 - log back on with the details saved yesterday
+- Anyone who lost their details: share the slide with the username and password again
 
-- 🎥 <span style="background-color: orange;">Show them the slide with the username and password</span>
+### LOD
 
-- Ask who needs LOD access ~ *then give them the LOD instructions*
+- Ask who is on LOD ~ *give them the LOD instructions again*
 - Ask them to let you know when they are done
 
 ### Download the course files
