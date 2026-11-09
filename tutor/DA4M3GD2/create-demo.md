@@ -1,4 +1,4 @@
-## CREATE-DEMO: Create: Database / Table / Insert & Update
+## Create, insert & update
 
 - Trainer: live in SSMS on the VM, using the 01 slide code
 - Learners: watch, no file

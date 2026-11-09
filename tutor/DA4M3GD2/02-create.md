@@ -1,4 +1,4 @@
-## 02-CREATE: 02 - Create and populate a database table
+## 02 - Create and populate a table
 
 - Trainer: Day 2 02_ExerciseGuide_Create_Delete_Propagate.docx
 - Learners: Slides/Day 2 02_ExerciseGuide_Create_Delete_Propagate.pdf

@@ -1,4 +1,4 @@
-## ERD-REVISION: Table Design Scenarios (revision)
+## Table Design Scenarios (revision)
 
 - Revises Day 1's ~02-ERD~ theory block - the approach page (entities -> attributes -> PK -> relationships/cardinality -> FK, linked from the top of the lab page) is a quick recap for anyone stuck, rather than re-teaching Day 1
 - Four independent scenarios (Library, Restaurant, Vehicle Hire, Conference) - assign one per group; drop a scenario if fewer groups, double one up if more

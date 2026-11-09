@@ -1,4 +1,4 @@
-## DB-TYPES: Database Types Investigation
+## Database Types Investigation
 
 Lab: docs/day3/db-types.md
 

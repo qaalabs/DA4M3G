@@ -1,4 +1,4 @@
-## 07-FILTERING: 07 - Filtering Rows Exercise
+## 07 - Filtering Rows Exercise
 
 - Trainer: Day 2 07_ExerciseGuide_Filtering_Rows.docx
 - Learners: Slides/Day 2 07_ExerciseGuide_Filtering_Rows.pdf

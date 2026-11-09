@@ -1,4 +1,4 @@
-## 04-SETUP: Create Conceptual Data Model
+## Create Conceptual Data Model
 
 - Trainer: Day 1 04_ExerciseGuide_Conceptual Data Models.docx
 - Learners: Slides/Day 1 04_ExerciseGuide_Conceptual Data Models.pdf

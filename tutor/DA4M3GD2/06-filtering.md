@@ -1,4 +1,4 @@
-## 06-FILTERING: 06 - Filtering Rows
+## 06 - Filtering Rows
 
 - Trainer: Day 2 06_Filtering rows.pptx (16 slides)
 - Learners: Slides/Day 2 06_Filtering rows.pdf

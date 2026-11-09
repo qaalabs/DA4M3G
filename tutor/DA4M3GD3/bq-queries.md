@@ -1,4 +1,4 @@
-## BQ-QUERIES: Run ECommerce Queries
+## Run ECommerce Queries
 
 Lab: docs/day3/bigquery-queries.md
 

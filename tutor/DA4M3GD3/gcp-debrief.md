@@ -1,4 +1,4 @@
-## GCP-DEBRIEF: Google Cloud Debrief
+## Google Cloud Debrief
 
 Solutions: docs/day3/bigquery-solutions.md
 

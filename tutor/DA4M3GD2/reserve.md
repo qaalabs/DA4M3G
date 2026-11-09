@@ -1,4 +1,4 @@
-## RESERVE: Time Reserve
+## Time Reserve
 
 - Catch-up on the morning or afternoon exercises first
 - Extra practice: `SQL-revision.txt` (zip root), Northwind - Steps 1-4, 6 and 12-16 use only Day 2 SQL

@@ -1,4 +1,4 @@
-## 06-SETUP: Create Logical Data Model
+## Create Logical Data Model
 
 - Trainer: Day 1 06_ExerciseGuide_Logical Data Models.docx
 - Learners: Slides/Day 1 06_ExerciseGuide_Logical Data Models.pdf

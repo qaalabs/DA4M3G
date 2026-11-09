@@ -1,4 +1,4 @@
-## 09-NORMALISE: 09 Normalisation
+## 09 Normalisation
 
 - Trainer: Day 1 09_ExerciseGuide_Normalisation.docx + Day 1 09a_Data_Exercise_Normalisation.xlsx
 - Learners: Slides/Day 1 09_ExerciseGuide_Normalisation.pdf + Data files/Day 1 09a_Data_Exercise_Normalisation.xlsx

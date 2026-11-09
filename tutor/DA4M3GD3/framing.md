@@ -1,4 +1,4 @@
-## FRAMING: Local Yesterday - Cloud Today
+## Local Yesterday - Cloud Today
 
 This afternoon:
 

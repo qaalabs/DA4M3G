@@ -1,4 +1,4 @@
-## 05-RETRIEVE: 05 - Retrieving Data Using SELECT
+## 05 - Retrieving Data Using SELECT
 
 - Trainer: Day 2 05_ExerciseGuide_Retrieve_Data.docx
 - Learners: Slides/Day 2 05_ExerciseGuide_Retrieve_Data.pdf

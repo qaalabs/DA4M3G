@@ -1,4 +1,4 @@
-## 09-SORTING: 09 - Sorting Rows Exercise
+## 09 - Sorting Rows Exercise
 
 - Trainer: Day 2 09_ExerciseGuide_Sorting_Rows.docx
 - Learners: Slides/Day 2 09_ExerciseGuide_Sorting_Rows.pdf

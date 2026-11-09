@@ -1,4 +1,4 @@
-## 02-ERD: 02 Entity Relationship Diagrams
+## 02 Entity Relationship Diagrams
 
 - Trainer: Day 1 02_Entity Relationship Diagrams.pptx (24 slides)
 - Learners: Slides/Day 1 02_Entity Relationship Diagrams.pdf

@@ -1,4 +1,4 @@
-## 01-CREATE: 01 - Creating, deleting & populating databases & tables
+## 01 - Create, delete & populate
 
 - Trainer: Day 2 01_Create_Delete_Populate.pptx (12 slides)
 - Learners: Slides/Day 2 01_Create_Delete_Populate.pdf

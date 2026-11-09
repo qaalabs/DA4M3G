@@ -1,4 +1,4 @@
-## 06-LOGICAL: 06 Creating a logical data model
+## 06 Creating a logical data model
 
 - Trainer: Day 1 06_ExerciseGuide_Logical Data Models.docx
 - Learners: Slides/Day 1 06_ExerciseGuide_Logical Data Models.pdf

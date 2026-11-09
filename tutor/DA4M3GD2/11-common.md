@@ -1,4 +1,4 @@
-## 11-COMMON: 11 - Common Functions Exercise
+## 11 - Common Functions Exercise
 
 - Trainer: Day 2 11_ExerciseGuide_Common_Functions ~ UPDATED.docx
 - Learners: Slides/Day 2 11_ExerciseGuide_Common_Functions.pdf

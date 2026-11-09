@@ -1,4 +1,4 @@
-## MERMAID: Diagramming Tools
+## Diagramming Tools
 
 - Trainer: Visio on the VM
 - Learners: Visio on their VM (backup: draw.io in the browser - app.diagrams.net)

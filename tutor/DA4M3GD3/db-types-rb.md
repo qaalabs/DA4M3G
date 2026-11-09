@@ -1,4 +1,4 @@
-## DB-TYPES-RB: Database Types Investigation - Report Back
+## Database Types Investigation - Report Back
 
 - Each pair reports back on their two tools from DB-TYPES
 - Draw out the range across the room: relational, NoSQL, warehouse, object storage, wide-column

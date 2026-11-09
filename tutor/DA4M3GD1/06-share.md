@@ -1,4 +1,4 @@
-## 06-SHARE: Create Logical Data Model
+## Create Logical Data Model
 
 - Trainer: Day 1 06_ExerciseGuide_Logical Data Models.docx
 - Learners: their own diagrams (no solution file)

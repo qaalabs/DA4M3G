@@ -1,4 +1,4 @@
-## GCP-LOGON: GCP & BigQuery Orientation
+## GCP & BigQuery Orientation
 
 Lab: docs/day3/gcp-logon.md
 

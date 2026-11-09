@@ -1,4 +1,4 @@
-## COMPARE: Compare Today to Yesterday
+## Compare Today to Yesterday
 
 - Discussion, no dedicated lab - draw on BQ-EXPLORE and BQ-QUERIES
 - Same SQL skills apply - SELECT, WHERE, ORDER BY, GROUP BY, JOIN all transfer from yesterday's local database work

@@ -1,4 +1,4 @@
-## 01-INTRO: 01 Introduction to Data Modelling
+## 01 Introduction to Data Modelling
 
 - Trainer: Day 1 01_Introduction to Data Modelling.pptx (11 slides)
 - Learners: Slides/Day 1 01_Introduction to Data Modelling.pdf

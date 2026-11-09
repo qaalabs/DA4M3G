@@ -1,4 +1,4 @@
-## ERD-SETUP: ERD Revision - Approach
+## ERD Revision - Approach
 
 ### Exercise 1: Review and plan client requirements
 1. Work out which tables would be required in the database.

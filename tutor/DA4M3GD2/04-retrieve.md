@@ -1,4 +1,4 @@
-## 04-RETRIEVE: 04 - Retrieving Data Using SELECT
+## 04 - Retrieving Data Using SELECT
 
 - Trainer: Day 2 04_Retrieve Data.pptx (11 slides)
 - Learners: Slides/Day 2 04_Retrieve Data.pdf

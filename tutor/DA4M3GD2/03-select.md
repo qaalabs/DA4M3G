@@ -1,4 +1,4 @@
-## 03-SELECT: 03 - SELECT Statement Overview
+## 03 - SELECT Statement Overview
 
 - Trainer: Day 2 03_SELECT Overview.pptx (1 slide)
 - Learners: Slides/Day 2 03_SELECT Overview.pdf

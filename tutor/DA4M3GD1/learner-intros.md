@@ -1,4 +1,4 @@
-## LEARNER-INTROS: Learner introductions
+## Learner introductions
 
 - Name and role
 - What data or databases they work with

@@ -1,4 +1,4 @@
-## 08-SORTING: 08 - Sorting Rows
+## 08 - Sorting Rows
 
 - Trainer: Day 2 08_Sorting rows.pptx (7 slides)
 - Learners: Slides/Day 2 08_Sorting rows.pdf

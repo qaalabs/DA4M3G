@@ -1,4 +1,4 @@
-## BQ-TASK2: Write BigQuery SQL - Task 2
+## Write BigQuery SQL - Task 2
 
 Level 3 (Aggregations), Tasks 11-15.
 Lab: docs/day3/bigquery-tasks-2.md

@@ -1,4 +1,4 @@
-## 10-COMMON: 10 - Common Functions (built-in)
+## 10 - Common Functions (built-in)
 
 - Trainer: Day 2 10_Common Functions.pptx (9 slides)
 - Learners: Slides/Day 2 10_Common Functions.pdf

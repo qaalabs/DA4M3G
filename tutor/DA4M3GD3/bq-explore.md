@@ -1,4 +1,4 @@
-## BQ-EXPLORE: Explore ECommerce Dataset
+## Explore ECommerce Dataset
 
 Lab: docs/day3/bigquery-explore.md
 
