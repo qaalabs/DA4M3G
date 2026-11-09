@@ -1,0 +1,68 @@
+# Site name
+site_name: Module 3 - Databases and SQL
+use_directory_urls: false
+dev_addr: '0.0.0.0:8000'
+
+# This file lives in printday/, and mkdocs resolves paths relative to it
+docs_dir: ../docs
+
+# Navigation menu
+nav:
+  - "Day 1 ~ Data Modelling":
+    - "🖥️ VM setup": https://qaalabs.github.io/vmsetup/
+
+# Theme
+theme:
+    name: material
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - tables
+  - toc:
+      permalink: false
+      toc_depth: 2
+
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - print-site:
+      enumerate_headings: false
+      add_table_of_contents: false
+      add_cover_page: true
+      cover_page_template: ../printday_cover.tpl
+
