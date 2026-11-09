@@ -6,7 +6,8 @@
 
 - `09:30` **Slides**: 🌅 Welcome to Day 1 DA4 Module 3G (10 mins)
 - `10:00` Module overview (10 mins)
-- `10:10` 01 - Introduction to data modelling (30 mins)
+- `10:10` 01 - Introduction to data modelling (20 mins)
+- `10:30` **Discussion**: Learner introductions (10 mins)
 
 ### Session 2
 

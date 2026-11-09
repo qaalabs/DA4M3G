@@ -6,6 +6,7 @@
 - **Setup**: [🖥️ VM setup](https://qaalabs.github.io/vmsetup/)
 - Module overview
 - 01 - Introduction to data modelling
+- **Discussion**: Learner introductions
 
 ## ☕ Morning break
 
