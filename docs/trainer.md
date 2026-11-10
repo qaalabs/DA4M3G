@@ -34,14 +34,14 @@
 
 ---
 
-## Day 2 ~ GCPFCI 2
+## Day 2 ~ SQL Basics
 
 ### Session 1
 
-- `09:40` **Discussion**: Q&A from Day 1 or quiz (10 mins)
-- `09:50` 01 - Creating, deleting & populating databases & tables (20 mins)
-- `10:10` **Demo**: Create: Database / table / insert & update (10 mins)
-- `10:20` **Activity**: 02 - Create and populate a database table (10 mins)
+- `09:30` **Slides**: 🌅 Welcome to Day 2 DA4 Module 3G (10 mins)
+- `09:50` 01 - Create, delete & populate (20 mins)
+- `10:10` **Demo**: Create, insert & update (10 mins)
+- `10:20` **Activity**: 02 - Create and populate a table (10 mins)
 
 ### Session 2
 
@@ -67,6 +67,7 @@
 
 ### Session 1
 
+- `09:30` **Slides**: 🌅 Welcome to Day 3 DA4 Module 3G (10 mins)
 - `09:40` **Breakout**: [👥 Database types investigation](day3/db-types.md) (20 mins)
 - `10:00` **Report-Back**: Database types investigation (20 mins)
 
@@ -94,6 +95,7 @@
 
 ### Session 1
 
+- `09:30` **Slides**: 🌅 Welcome to Day 4 DA4 Module 3G (10 mins)
 - `09:40` **Instructions**: [ERD-SETUP](day4/erd-setup.md) (10 mins)
 - `09:50` **Breakout**: [👥 Table design scenarios](day4/erd-revision.md) (20 mins)
 

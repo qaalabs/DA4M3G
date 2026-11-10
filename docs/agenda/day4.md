@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- 🌅 Welcome to Day 4 of DA4 Module 3G
+- **Slides**: 🌅 Welcome to Day 4 DA4 Module 3G
 - **Instructions**: ERD-SETUP
 - **Breakout**: [👥 Table design scenarios](../day4/erd-revision.md)
 - 

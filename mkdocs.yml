@@ -18,6 +18,9 @@ nav:
   - "Day 1 ~ Data Modelling":
     - "🖥️ VM setup": https://qaalabs.github.io/vmsetup/
 
+  - "Day 2 ~ SQL Basics":
+    - "🖥️ VM setup": https://qaalabs.github.io/vmsetup/
+
   - "Day 3 ~ SQL 1":
     - "👥 Database types investigation": day3/db-types.md
     - "GCP & BigQuery orientation": day3/gcp-logon.md
