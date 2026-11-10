@@ -1,6 +1,6 @@
 ## Local Yesterday - Cloud Today
 
-This afternoon:
+This morning:
 
 - GCP & BigQuery orientation - logging into the console and finding the dataset
 - Explore and query the TheLook Ecommerce public dataset

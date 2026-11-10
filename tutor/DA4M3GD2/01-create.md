@@ -1,7 +1,7 @@
 ## 01 - Create, delete & populate
 
 - Trainer: Day 2 01_Create_Delete_Populate.pptx (12 slides)
-- Learners: Slides/Day 2 01_Create_Delete_Populate.pdf
+- Learners: Day2/Day 2 01_Create_Delete_Populate.pdf
 
 - CREATE/DROP DATABASE, then CREATE TABLE with data types
 - Primary keys: natural vs surrogate (IDENTITY), plus DEFAULT getdate()

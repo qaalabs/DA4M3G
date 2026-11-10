@@ -1,7 +1,7 @@
 ## 06 - Filtering Rows
 
 - Trainer: Day 2 06_Filtering rows.pptx (16 slides)
-- Learners: Slides/Day 2 06_Filtering rows.pdf
+- Learners: Day2/Day 2 06_Filtering rows.pdf
 
 - WHERE with comparison, logical (AND/OR/NOT) and special operators (BETWEEN, IN, LIKE)
 - Alias can't be used in WHERE; AND runs before OR - use brackets

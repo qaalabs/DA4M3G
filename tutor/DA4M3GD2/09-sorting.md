@@ -1,7 +1,7 @@
 ## 09 - Sorting Rows Exercise
 
 - Trainer: Day 2 09_ExerciseGuide_Sorting_Rows.docx
-- Learners: Slides/Day 2 09_ExerciseGuide_Sorting_Rows.pdf
+- Learners: Day2/Day 2 09_ExerciseGuide_Sorting_Rows.pdf
 - Solution: Solutions/Day 2 09_ExerciseGuide_Sorting_Rows_SOLUTIONS.pdf
 
 - Four exercises: ORDER BY two columns, sort on a calculated column, DISTINCT, TOP 10

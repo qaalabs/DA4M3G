@@ -1,6 +1,6 @@
 ## Explore ECommerce Dataset
 
-Lab: docs/day3/bigquery-explore.md
+Lab: docs/day4/bigquery-explore.md
 
 - Find and pin `thelook_ecommerce` under `bigquery-public-data`
 - Project > dataset > table hierarchy (map to SSMS: server > database > table)

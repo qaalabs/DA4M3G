@@ -1,4 +1,4 @@
-# Day 3 - BigQuery Solutions
+# Day 4 - BigQuery Solutions
 
 All tables are in `bigquery-public-data.thelook_ecommerce`.
 

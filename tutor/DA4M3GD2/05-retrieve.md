@@ -1,7 +1,7 @@
 ## 05 - Retrieving Data Using SELECT
 
 - Trainer: Day 2 05_ExerciseGuide_Retrieve_Data.docx
-- Learners: Slides/Day 2 05_ExerciseGuide_Retrieve_Data.pdf
+- Learners: Day2/Day 2 05_ExerciseGuide_Retrieve_Data.pdf
 - Solution: Solutions/Day 2 05_ExerciseGuide_Retrieve_Data_SOLUTIONS.pdf
 
 - Northwind Products: SELECT *, then chosen columns, then CurrentStockValue and FutureStockValue

@@ -1,7 +1,7 @@
 ## 11 - Common Functions Exercise
 
 - Trainer: Day 2 11_ExerciseGuide_Common_Functions ~ UPDATED.docx
-- Learners: Slides/Day 2 11_ExerciseGuide_Common_Functions.pdf
+- Learners: Day2/Day 2 11_ExerciseGuide_Common_Functions.pdf
 - Solution: Solutions/Day 2 11_ExerciseGuide_Common_Functions_SOLUTIONS.pdf
 
 - Uses QAStore (created in 04), not Northwind

@@ -1,6 +1,6 @@
 ## Run ECommerce Queries
 
-Lab: docs/day3/bigquery-queries.md
+Lab: docs/day4/bigquery-queries.md
 
 - Trainer-led, learners follow along in their own editor
 - Cost awareness: the "this query will process X" indicator, why LIMIT matters

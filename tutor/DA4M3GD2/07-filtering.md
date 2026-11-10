@@ -1,7 +1,7 @@
 ## 07 - Filtering Rows Exercise
 
 - Trainer: Day 2 07_ExerciseGuide_Filtering_Rows.docx
-- Learners: Slides/Day 2 07_ExerciseGuide_Filtering_Rows.pdf
+- Learners: Day2/Day 2 07_ExerciseGuide_Filtering_Rows.pdf
 - Solution: Solutions/Day 2 07_ExerciseGuide_Filtering_Rows_SOLUTIONS.pdf
 
 - Four exercises: basic WHERE, IN and BETWEEN, LIKE, IS NULL - plus optional extras
