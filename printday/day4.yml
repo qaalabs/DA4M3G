@@ -9,6 +9,12 @@ docs_dir: ../docs
 # Navigation menu
 nav:
   - "Day 4 ~ SQL 2":
+    - "GCP & BigQuery orientation": day4/gcp-logon.md
+    - "Explore ECommerce dataset": day4/bigquery-explore.md
+    - "Run ECommerce queries": day4/bigquery-queries.md
+    - "Write BigQuery SQL - Task 1": day4/bigquery-tasks-1.md
+    - "Write BigQuery SQL - Task 2": day4/bigquery-tasks-2.md
+    - "Write BigQuery SQL - Task 3": day4/bigquery-tasks-3.md
     - "👥 Table design scenarios": day4/erd-revision.md
 
 # Theme

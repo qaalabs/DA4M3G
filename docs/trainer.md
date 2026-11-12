@@ -70,24 +70,26 @@
 - `09:30` **Slides**: 🌅 Welcome to Day 3 DA4 Module 3G (10 mins)
 - `09:40` **Breakout**: [👥 Database types investigation](day3/db-types.md) (20 mins)
 - `10:00` **Report-Back**: Database types investigation (20 mins)
+- `10:20` 01 - Grouping and aggregation (20 mins)
 
 ### Session 2
 
+- `11:00` **Activity**: 02 - Grouping and aggregation (20 mins)
+- `11:20` 03 - Rollup, cube & grouping sets (10 mins)
+- `11:30` **Activity**: 04 - Advanced grouping (20 mins)
+- `11:50` 05 - Working with multiple tables - joins (part 1) (30 mins)
 
 ### Session 3
 
-- `13:40` **Discussion**: [Local yesterday - Cloud today](day3/framing.md) (10 mins)
-- `13:50` **Activity**: [GCP & BigQuery orientation](day3/gcp-logon.md) (10 mins)
-- `14:00` **Activity**: [Explore ECommerce dataset](day3/bigquery-explore.md) (10 mins)
-- `14:10` **Practice**: [Run ECommerce queries](day3/bigquery-queries.md) (20 mins)
-- `14:30` Compare today to yesterday (10 mins)
+- `13:20` **Activity**: 06 - Joins - INNER, LEFT, RIGHT, FULL (30 mins)
+- `13:50` 05 - Working with multiple tables - joins (part 2) (10 mins)
+- `14:00` 07 - Working with multiple queries - set operators (20 mins)
+- `14:20` **Activity**: 08 - Joins and set operators (20 mins)
 
 ### Session 4
 
-- `15:00` **Practice**: [Write BigQuery SQL - Task 1](day3/bigquery-tasks-1.md) (10 mins)
-- `15:10` **Practice**: [Write BigQuery SQL - Task 2](day3/bigquery-tasks-2.md) (10 mins)
-- `15:20` **Practice**: [Write BigQuery SQL - Task 3](day3/bigquery-tasks-3.md) (10 mins)
-- `15:30` **Discussion**: [Google Cloud debrief](day3/bigquery-solutions.md) (10 mins)
+- `15:00` Views - creating and using views (20 mins)
+- `15:20` **Activity**: Views - defining views (30 mins)
 
 ---
 
@@ -96,16 +98,28 @@
 ### Session 1
 
 - `09:30` **Slides**: 🌅 Welcome to Day 4 DA4 Module 3G (10 mins)
-- `09:40` **Instructions**: [ERD-SETUP](day4/erd-setup.md) (10 mins)
-- `09:50` **Breakout**: [👥 Table design scenarios](day4/erd-revision.md) (20 mins)
+- `09:40` **Discussion**: [Local yesterday - Cloud today](day4/framing.md) (10 mins)
+- `09:50` **Activity**: [GCP & BigQuery orientation](day4/gcp-logon.md) (10 mins)
+- `10:00` **Activity**: [Explore ECommerce dataset](day4/bigquery-explore.md) (10 mins)
+- `10:10` **Practice**: [Run ECommerce queries](day4/bigquery-queries.md) (20 mins)
+- `10:30` Compare today to yesterday (10 mins)
 
 ### Session 2
 
+- `11:00` **Practice**: [Write BigQuery SQL - Task 1](day4/bigquery-tasks-1.md) (10 mins)
+- `11:10` **Practice**: [Write BigQuery SQL - Task 2](day4/bigquery-tasks-2.md) (10 mins)
+- `11:20` **Practice**: [Write BigQuery SQL - Task 3](day4/bigquery-tasks-3.md) (10 mins)
+- `11:30` **Discussion**: [Google Cloud debrief](day4/bigquery-solutions.md) (10 mins)
+- `11:40` **Instructions**: [ERD-SETUP](day4/erd-setup.md) (10 mins)
+- `11:50` **Breakout**: [👥 Table design scenarios](day4/erd-revision.md) (20 mins)
 
 ### Session 3
 
+- `13:20` **Activity**: 03 - SQL revision (70 mins)
 
 ### Session 4
 
+- `14:50` 04 - Stretch and challenge: window functions (40 mins)
+- `15:30` **Discussion**: Module recap and Q&A (20 mins)
 
 ---
